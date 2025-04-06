@@ -1,0 +1,8 @@
+{
+    "version": "2.0.0",
+    "tasks": [{
+        "label": "catkinBuildInterfacer",
+        "command": "catkin build interfacer --no-deps -DCMAKE_BUILD_TYPE=debug", // Could be any other shell command
+        "type": "shell"
+    }]
+}

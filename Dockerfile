@@ -46,7 +46,7 @@ RUN wstool init ~/ros_ws/src /opt/app/kimera_semantics_instance.rosinstall
 
 WORKDIR /root/ros_ws
 RUN /bin/bash -c '. /opt/ros/noetic/setup.bash; cd ~/ros_ws; \ 
-                    catkin config --cmake-args -DCMAKE_CXX_STANDARD=14 -DCMAKE_BUILD_TYPE=Release; \
+                    catkin config --cmake-args -DCMAKE_CXX_STANDARD=14 -DCMAKE_BUILD_TYPE=debug; \
                     catkin build;'
                     
 RUN echo "source /root/ros_ws/devel/setup.bash" >> ~/.bashrc

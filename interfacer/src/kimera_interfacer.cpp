@@ -32,11 +32,12 @@ using namespace cv;
 
 int main(int argc, char **argv)
 {
-  ros::init(argc, argv, "interfacer");
+  //ros::init(argc, argv, "interfacer");
   std::cout << "Started the Interfacer Node for kimera" << std::endl;
-
+  int i = 1;
   ros::NodeHandle nh;
   ros::NodeHandle nh_private("~");
+  ROS_ERROR("Hello %s", "World");
 
   return EXIT_SUCCESS;
 }
