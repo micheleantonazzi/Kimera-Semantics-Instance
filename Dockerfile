@@ -29,7 +29,7 @@ RUN apt install -y python3-pip python3-pcl
 RUN pip3 install -U catkin_tools 
 
 # Install specific dependies for the package
-RUN apt install -y apturl libbullet-dev python3-wstool protobuf-compiler dh-autoreconf python3-catkin-tools python3-osrf-pycommon
+RUN apt install -y gdb apturl libbullet-dev python3-wstool protobuf-compiler dh-autoreconf python3-catkin-tools python3-osrf-pycommon
 
 # Install pybind11
 # Install pip requirements

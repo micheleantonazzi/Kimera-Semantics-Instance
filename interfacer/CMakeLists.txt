@@ -18,7 +18,7 @@ add_definitions(-std=c++17 -Wall -Wextra)
 # BINARIES #
 ############
 
-cs_add_executable(interfacer src/kimera_interfacer.cpp)
+cs_add_executable(kimera_interfacer src/kimera_interfacer.cpp)
 
 ##########
 # EXPORT #
